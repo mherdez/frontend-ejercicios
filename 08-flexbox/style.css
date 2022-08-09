@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: gray;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: indigo;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  line-height: 150px;
+  border: 5px solid white;
+}
+.b1 {
+  background-color: lightcoral;
+}
+.b2 {
+  background-color: lightgreen;
+}
+.b3 {
+  background-color: lightskyblue;
+}
