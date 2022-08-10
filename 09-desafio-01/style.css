@@ -1,2 +1,95 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  align-items: center;
+  background-color: rgb(224,231,255);
+  background-image: url('./imagenes/pattern-background-desktop.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+.card {
+  font-family: 'Red Hat Display', sans-serif;
+  width: 400px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(103, 80, 156, .3);
+  overflow: hidden;
+}
+.card-top img {
+  width: 100%;
+}
+.card-desc {
+  padding: 35px;
+  padding-top: 20px;
+  text-align: center;
+}
+.card-desc-title h1{
+  font-weight: 900;
+  font-size: 1.7em;
+  color: rgb(62, 65, 94);
+}
+.card-desc-text {
+  margin: 30px 0;
+  color: rgb(136, 138, 167);
+  line-height: 1.5em;
+  padding: 0 20px;
+}
+.card-desc-options {
+  background-color: rgba(224,231,255,.4);
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: rgb(136, 138, 167);
+  border-radius: 15px;
+}
+.card-desc-options-plan {
+  margin-left: -40px;
+}
+.card-desc-options a {
+  color: rgb(74, 24, 238);
+  font-weight: 700;
+  font-size: .9em;
+}
+.card-desc-options a:hover {
+  color: rgb(128, 96, 232);
+  text-decoration: none;
+}
+.card-desc-options-plan-title {
+  font-weight: 700;
+  color: rgb(62, 65, 94);
+}
+.card-desc-btn-payment a{
+  background-color: rgb(74, 24, 238);
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(103, 80, 156, .3);
+  color: white;
+  display: block;
+  font-size: .9em;
+  font-weight: 700;
+  margin: 30px 0;
+  padding: 15px;
+  text-decoration: none;
+}
+.card-desc-btn-payment a:hover{
+  background-color: rgb(128, 96, 232);
+}
+.card-desc-btn-cancel a{
+  text-decoration: none;
+  color: rgb(136, 138, 167);
+  font-weight: 700;
+  font-size: .9em;
+}
+.card-desc-btn-cancel a:hover{
+  color: rgb(62, 65, 94);
+}
