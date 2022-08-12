@@ -7,3 +7,32 @@ body {
   text-align: center;
   margin: 50px 0;
 }
+.card-container {
+  margin: 0 auto;
+  width: 75%;
+  /* border: 2px solid white; */
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: space-around;
+  gap: 40px;
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.5);
+}
+.card-photo {
+  width: 120px;
+  border-radius: 50%;
+}
+.card-name {
+  text-align: center;
+  font-size: 1.2em;
+  margin: 15px 0 0;
+}
