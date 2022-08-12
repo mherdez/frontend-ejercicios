@@ -9,13 +9,13 @@ const fizzbuzz = ( num ) => {
 }
 
 
-const lista = ( limite ) => {
-  for (let i = 1; i <= limite; i++) {
-    console.log(`${ i }: ${ fizzbuzz(i) }`)
-  }
-}
+// const lista = ( limite ) => {
+//   for (let i = 1; i <= limite; i++) {
+//     console.log(`${ i }: ${ fizzbuzz(i) }`)
+//   }
+// }
 
-lista(40);
+// lista(40);
 
 
 
