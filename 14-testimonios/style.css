@@ -1,11 +1,18 @@
+
+:root{
+  --color-primario     : white;
+  --color-enfatizado   : yellow;
+  --color-fondo        : #1C1C32;
+  --color-fondo-tarjeta: #0A0A23;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 .container {
-  background-color: #1C1C32;
-  color: white;
+  background-color: var(--color-fondo);
+  color: var(--color-primario);
   font-family: sans-serif;
   width: 100vw;
   height: 100vh;
@@ -29,7 +36,7 @@
   width: 80%;
 }
 .card {
-  background-color: #0A0A23;
+  background-color: var(--color-fondo-tarjeta);
   display: flex;
   margin-bottom: 40px;
 }
@@ -62,5 +69,5 @@
 }
 .card-desc-strong {
   /* font-weight: bold; */
-  color: yellow;
+  color: var(--color-enfatizado);
 }
