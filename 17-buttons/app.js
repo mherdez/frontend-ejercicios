@@ -8,8 +8,8 @@ const buttons = [
   'LightGreen',
   'LightSkyBlue',
   'SandyBrown',
-  'Indigo',
-  'Black'
+  'Indigo-',
+  'Black-'
 ];
 
 ButtonsList( buttons );
