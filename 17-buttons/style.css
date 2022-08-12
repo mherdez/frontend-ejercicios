@@ -1,0 +1,32 @@
+body {
+  background-color: rgb(24, 24, 50);
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+}
+h1 {
+  font-size: 20px;
+  margin: 20px;
+}
+#buttons-container {
+  /* border: 5px solid yellow; */
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+
+  /* display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px; */
+
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 5px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border: 2px solid white;
+  margin: 10px auto;
+}
