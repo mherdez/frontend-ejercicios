@@ -1,0 +1,9 @@
+body {
+  background-color: rgb(24,24,50);
+  color: white;
+  font-family: sans-serif;
+}
+.title {
+  text-align: center;
+  margin: 50px 0;
+}
